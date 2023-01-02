@@ -1,0 +1,132 @@
+@import "reset.scss";
+@import "fonts.scss";
+
+html,
+body {
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  color: #1e1b1b;
+  line-height: normal;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.main {
+}
+
+.header {
+  position: relative;
+  background: url(../images/background/IMAGE__top.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  display: block;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+// =====================  header__top  ====================//
+
+.header__top-inner {
+  display: flex;
+  align-items: center;
+  padding: 18px 16px;
+}
+.header__top-logo {
+  transition: all .3s;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+.header__inner {
+  margin-left: auto;
+}
+.header__nav-list {
+  display: flex;
+}
+.header__menu {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  transition: all .3s;
+  margin-right: 50px;
+  .header__nav {
+    padding: 15px;
+  }
+  &:hover{
+    color:#05050573;
+    transform: scale(1.1);
+  } 
+}
+.header__button {
+  background: #7140eb;
+  color: #FFFFFF;
+  border-radius: 999px;
+  width: 183px;
+  height: 42px;
+  left: 1057px;
+  top: 28px;
+  transition: all .3s;
+  &:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+  }
+}
+
+// =====================  header__Budy  ====================//
+// =====================  header__Budy  ====================//
+
+
+.header__body {
+  align-items: center;
+  text-align: center;
+}
+.header__body-inner {
+  
+}
+.header__body-title {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 99px;
+  line-height: 111px;
+}
+.body--title {
+  margin-top: 158px;
+  &:last-child{
+    margin-top: 0px;
+  }
+}
+.body__inner-subtitle {
+  margin: 37px 0 57px 0;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 23px;
+}
+.body__desc-subtitle {
+}
+
+.btn {
+  margin-bottom: 183px;
+}
+
+@import "_description.scss";
+@import "_product.scss";
+@import "_take-care.scss";
+@import "_your-city.scss";
+@import "_accordion.scss";

@@ -1,0 +1,74 @@
+// =====================  Main  ====================//
+// =====================  Main  ====================//
+
+.main__description{
+}
+
+
+.description__inner {
+  display: flex;
+}
+.description__content{
+}
+.description__title {
+  margin: 71px 0;
+}
+.description__works {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 67px;
+  color: #49464F;
+}
+.description__questionnaire {
+  display: block;
+}
+.description__inner-tixt {
+  display: flex;
+  margin-bottom: 24px;
+  &:last-child{
+    margin-bottom: 51px;
+  }
+}
+.description__inner-number {
+  margin-right: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+.description__tixt{
+  font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #49464F;
+}
+.main__button {
+  background: #7140EB;
+  border-radius: 999px;
+  width: 189px;
+  height: 62px;
+  left: 123px;
+  top: 1269px;
+  transition: all .3s;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  &:hover{
+    color:#05050573;
+    transform: scale(1.1);
+    transition: all .3s;
+  }
+}
+.description__inner-2 {
+  display: flex;
+}
+
+.description__scooter {
+  width: 100%;
+  margin-top: 156px;
+  margin-bottom: 89px;
+}
