@@ -1,0 +1,131 @@
+
+
+.footer {
+  padding: 98px 141px;
+  position: relative;
+  background: url(../images/background/IMAGE__footer.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer__inner {
+  display: flex;
+}
+.footer__notification {
+}
+.footer__title {
+  font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 34px;
+color: #FFFFFF;
+margin-bottom: 19px;
+}
+.footer__subtitle {
+margin-bottom: 30px;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+max-width: 286px;
+color: #FFFFFF;
+}
+// ========================================
+.footer__form {
+  margin-bottom: 25px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.footer__from-svg {
+  padding: 6px 14px;
+}
+.footer__inner-form {
+  display: inline-flex;
+  align-items: center;
+}
+.feedback__form-label {
+  text-align: center;
+  margin-top: -5px;
+}
+.feedback__form-shell {
+  margin-right: 128px;
+}
+.footer__svg{
+  background: transparent;
+}
+.footer__subtitle-2 {
+  max-width: 259px;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.footer__inner-menu {
+  display: flex;
+  
+}
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+.footer__data {
+}
+
+// ===========================
+.footer__inner-menu{
+  display: flex;
+  margin-left: auto;
+  
+}
+.footer__menu-list {
+  display: flex;
+  justify-content: space-around;
+  z-index: 100;
+}
+.footer__menu {
+  margin: 0 30px;
+  &>li{
+    margin: 0px 10px 0px 0px;
+  }
+  & li{
+    position: relative;
+    margin-bottom: 16px;
+  }
+  & li:last-child{
+    margin-bottom: 0px;
+  }
+  & li:hover .footer__sub-menu--list{
+    display: block;
+  }
+}
+
+.footer__menu-link {
+  padding: 15px 0px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer__sub-menu--list {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 30px;
+}
+.footer__sub-menu--link {
+  color: rgb(255, 255, 255);
+}
+
+// ===================
+
+.footer__icons-svg {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: end;
+  margin-top: 100px;
+}
+.footer__svg {
+  margin-right: 30px;
+}
