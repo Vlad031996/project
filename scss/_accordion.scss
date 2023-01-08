@@ -1,0 +1,133 @@
+.main__accordion {
+  background: #f5f5f7;
+}
+
+.accordion__title {
+  transition: all 1s;
+  margin-top: 212px;
+  margin-bottom: 53px;
+}
+.accordion__description {
+  transition: all 1s;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 67px;
+}
+.accordion__btn {
+  transition: all 1s;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  display: inline-flex;
+  border: 1px solid #2e2c34;
+  border-radius: 999px;
+  padding: 12px 50px;
+  &:hover {
+    color: #ffffff;
+    background: #7140eb;
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+  &:hover svg path {
+    fill: #ffffff;
+    transition: all 0.3s;
+  }
+}
+.accordion__details {
+}
+.accordion__details {
+  margin-right: 5px;
+}
+
+.accordion__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion__content {
+  margin-right: 15px;
+}
+
+.accordion__conteant-shell {
+  display: flex;
+  flex-direction: column;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  max-width: 896px;
+}
+
+.accordion__conteant {
+  list-style-type: none;
+  margin-bottom: 12px;
+  background: #f5f5f7;
+}
+
+.accordion__conteant-link {
+  display: block;
+}
+
+.accordion__question {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.accordion__question-title {
+  transition: all 1s;
+  color: #2e2c34;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.accordion__rectangle {
+  background: #f5f5f7;
+  width: 51px;
+  height: 48px;
+  position: relative;
+}
+.accordion__rectangle {
+  &::before {
+    transition: all 1s;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    width: 17px;
+    height: 2px;
+    background-color: #2e2c34;
+  }
+  &::after {
+    transition: all 1s;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    width: 17px;
+    height: 2px;
+    background-color: #2e2c34;
+    transform: rotate(90deg);
+    transition: all 0.3s;
+  }
+}
+
+.accordion__text {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+line-height: 175%;
+color: #939191;
+max-width: 468px;
+margin-top: 16px;
+}
+
+.accordion__conteant-link--active .accordion__rectangle::after {
+  transform: rotate(0deg);
+}
+
+.accordion__text {
+}
