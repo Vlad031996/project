@@ -1,0 +1,148 @@
+
+.card-product__inner {
+  display: flex;
+  justify-content: space-between;
+
+}
+.card-product__content {
+  margin-top: 69px;
+  margin-bottom: 105px;
+}
+.card-product__description {
+}
+.card-product__title-top {
+  max-width: 248px;
+  font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 67px;
+margin-bottom: 27px;
+}
+.card-product__subtitle {
+  max-width: 252px;
+  font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+margin-bottom: 36px;
+}
+.card-product__service-offer{
+  display: inline-block;
+}
+.card-product__description-offer {
+  display: flex;
+  padding: 7px 16px ;
+  background: #F5F5F7;
+border-radius: 40px;
+margin-bottom: 16px;
+&:last-child{
+  margin-bottom: 0px;
+}
+}
+.card-product__offer {
+
+  font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 22px;
+}
+
+.card-product__content-2{
+  display: flex;
+  margin-left: 15px;
+}
+
+.card-product__card-body {
+  margin-right: 16px;
+  &:last-child{
+    margin-right: 0px;
+  }
+}
+.card-product__card-great {
+  margin-top: 75px;
+  background:  #F5F5F7;
+  border-radius: 16px;
+}
+.card-product__inner-card {
+  border-radius: 16px;
+    padding: 67px 24px 32px 24px;
+    margin: 0 auto;
+    transition: all 1s;
+    margin-bottom: 78px;
+    &:hover{
+      transform: scale(1.03);
+      transition: all .3s;
+      box-shadow: 10px 10px 5px rgb(97, 97, 97);
+    }
+  
+}
+.card-product__card-price {
+  display: flex;
+  margin-bottom: 38px;
+}
+.card-product__price {
+  display: flex;
+}
+.card-card-product__price-subtitle {
+  transition: all 1s;
+  font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    margin-right: 4px;
+}
+.card-product__price-offer {
+  color: #7140EB;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    background: #F1EEF8;
+    padding: 1px 11px;
+    border-radius: 20px;
+}
+.card-product__title-one{
+  transition: all 1s;
+  font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 34px;
+}
+
+.card-product__subtitle-one {
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+  margin-bottom: 12px;
+  color: #2E2C34;
+}
+.card-product__details-btn {
+  margin-bottom: 32px;
+  padding: 20px 38px;
+    border: 1px solid #2E2C34;
+    border-radius: 999px;
+    background: #7140EB;
+    transition: all 1s;
+    color: #F1EEF8;
+    & svg path{
+      fill: #F1EEF8;
+      transition: all 1s;
+    }
+    &:hover {
+      background:#7140EB;
+      transition: all .3s;
+      color: #2E2C34;
+    }
+    &:hover svg path {
+  
+      transition: all .3s;
+      fill: #2E2C34;
+    }
+}
+.card-product__details {
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+}
